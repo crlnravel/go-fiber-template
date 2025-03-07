@@ -1,0 +1,15 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    schema: "sqlc/postgresql/schema.sql"
+    queries: []
+    gen:
+      go:
+        package: "repository"
+        out: internal/repository
+        sql_package: pgx/v5
+        sql_driver: github.com/jackc/pgx/v5
+        emit_empty_slices: true
+        emit_interface: true
+        emit_params_struct_pointers: true
+        emit_result_struct_pointers: true

@@ -1,0 +1,18 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "API Endpoints for COMPFEST Mailer System. Built with Golang, Fiber, and Love \u003c3",
+        "title": "COMPFEST 17 Mailer \"Minecart\" API",
+        "contact": {
+            "name": "API Maintainer (Tim DevOps COMPFEST 17)"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "host": "minecart.compfest.id",
+    "basePath": "/",
+    "paths": {}
+}

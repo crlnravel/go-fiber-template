@@ -1,0 +1,9 @@
+.env
+
+.idea
+.code
+
+bin
+build
+
+tmp

@@ -1,0 +1,14 @@
+basePath: /
+host: minecart.compfest.id
+info:
+  contact:
+    name: API Maintainer (Tim DevOps COMPFEST 17)
+  description: API Endpoints for COMPFEST Mailer System. Built with Golang, Fiber,
+    and Love <3
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  title: COMPFEST 17 Mailer "Minecart" API
+  version: "1.0"
+paths: {}
+swagger: "2.0"
